@@ -1,0 +1,184 @@
+/* General styles */
+body {
+    font-family: 'Rubik', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+}
+
+header {
+    background-color: #2a9d8f;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+section h2 {
+    color: #264653;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+section .content {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #2a9d8f;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Landing page styles */
+#landing {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    background-color: #e9c46a;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+
+.landing-text {
+    max-width: 50%;
+}
+
+.landing-text h2 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+.landing-text p {
+    font-size: 1.2rem;
+}
+
+.landing-image img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* Villages section */
+#villages ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#villages ul li {
+    background-color: #f4a261;
+    color: white;
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+/* Problems Identified section */
+#problems .interactive-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#problems .interactive-list ul li {
+    background-color: #e76f51;
+    color: white;
+    padding: 3rem;
+    margin-bottom: 0.5rem;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+#problems .interactive-list ul li:hover {
+    transform: scale(1.05);
+}
+
+/* Our Contribution section */
+#contribution ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#contribution ul li {
+    background-color: #2a9d8f;
+    color: white;
+    padding: 3rem;
+    margin-bottom: 0.5rem;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+/* Study Material section */
+#study-material ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#study-material ul li {
+    background-color: #264653;
+    color: white;
+    padding: 2rem;
+    margin-bottom: 0.5rem;
+    border-radius: 5px;
+    font-size: 1.5rem;
+}
+
+#study-material ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#study-material ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Experience section */
+#experience .content {
+    background-color: #2a9d8f;
+    color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 1.2rem;
+}
